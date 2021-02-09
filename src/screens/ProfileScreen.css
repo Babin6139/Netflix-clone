@@ -38,13 +38,77 @@
 .profileScreen__info > img{
     height: 100px;
 }
-
 .profileScreen__plans{
     margin-top: 20px;
 }
 .profileScreen__plans > h3{
     border-bottom: 1px solid #282c2d;
     padding-bottom: 10px;
+}
+
+.profileScreen__plans > h5
+{
+    color: gray;
+    margin-top:10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #282c2d;
+}
+
+.profileScreen__plansBasic{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+.profileScreen__plansStandard{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+.profileScreen__plansBasic > button{
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.profileScreen__plansStandard > button{
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+.profileScreen__plansPremium > button{
+    background-color: gray;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.profileScreen__plansPremium:hover{
+    opacity: 1;
+}
+
+.profileScreen__plansStandard:hover{
+    opacity: 1;
+}
+.profileScreen__plansPremium{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+.profileScreen__plansBasic:hover{
+    opacity:1
 }
 .profileScreen__signOut{
     padding: 10px 20px;
@@ -57,4 +121,8 @@
     border: none;
     cursor: pointer;
 
+}
+
+p{
+    font-size: 0.9rem;
 }
